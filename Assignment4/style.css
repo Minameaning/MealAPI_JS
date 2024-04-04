@@ -1,0 +1,80 @@
+*{
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    box-sizing: border-box;
+   
+
+}
+body{
+    background-color:#a35c2c;
+    background-image: url(images/diet.png);
+    background-repeat: repeat-x;
+    background-position: left;
+}
+
+section{
+    background-color: rgba(225, 182, 157, 0.9);
+    width: 50%;
+    margin: 10% 25%;
+    padding: 60px;
+    box-shadow: 10px 5px rgb(22, 44, 3);
+}
+.detailsBox{
+    background-color: rgba(225, 182, 157, 0.9);
+    margin: 10px 30px;
+    display: inline-block;
+    justify-items: center;
+}
+h1{
+    font-size: 30px;
+    color: #102820;
+}
+h3{
+    color: #102820;
+}
+.instructions-box {
+    display: grid;
+    justify-items: center;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+#meals-table{
+    display: ruby-text;
+    padding: 20px;
+}
+th{
+    background-color: #102820;
+    color: #CABA9C;
+    padding: 10px;
+    font-size: 15px;
+}
+input[type="text"]{
+    font-size: 1.5em;
+    border-radius: 5px;
+   
+}
+
+.style-1,.goBack {
+    position: relative;
+    padding: 0.1em 1em;
+    background: linear-gradient(135deg, rgba(56, 38, 38, 0.6), rgba(19, 62, 39, 0.232));
+    border-radius: 10px;
+    border: 5px solid black;
+    font-size: 1.5em;
+    color: rgb(219, 200, 200);
+    text-shadow: 1px 2px 2px rgba(21, 39, 18, 0.2);
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    transition: all .2s linear;
+  }
+  
+  .style-1:hover ,.goBack:hover {
+    color: black;
+  padding: 0.1em 1.2em;
+  box-shadow: 10px 5px rgb(61, 41, 21);
+  }
+a{
+    color: rgb(111, 55, 34);
+    font-size: 20px;
+}
